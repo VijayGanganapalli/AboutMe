@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:layout_marginTop="@dimen/margin_top_16dp"
+        tools:ignore="UseCompoundDrawables">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_name"
+            android:id="@+id/text_name"
+            android:textAlignment="center"
+            android:paddingTop="@dimen/padding_top_8dp"
+            style="@style/nameStyle"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/image_star"
+            android:contentDescription="@string/star_yellow"
+            android:layout_marginTop="@dimen/margin_top_16dp"/>
+
+</LinearLayout>
