@@ -9,11 +9,11 @@
     </style>
 
     <style name="nameStyle">
-        <item name="android:layout_marginTop">@dimen/margin_top_16dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_16dp</item>
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textSize">@dimen/text_size_name</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:paddingTop">@dimen/padding_top_8dp</item>
+        <item name="android:paddingTop">@dimen/padding_8dp</item>
     </style>
 
 </resources>
